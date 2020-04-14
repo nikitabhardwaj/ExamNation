@@ -15,7 +15,7 @@
 
 .form-box{
   width: 380px;
-  height: 480px;
+  height: 500px;
   position: relative;
   margin: 6% auto;
   background: rgb(226, 226, 226);
@@ -67,7 +67,7 @@
 }
 
 .input-group{
-  top: 180px;
+  top: 130px;
   position: absolute;
   width: 280px;
   transition: .5s;
