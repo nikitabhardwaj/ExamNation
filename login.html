@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login ExamNation</title>
+    <link rel = "icon" href = "https://img.icons8.com/officel/16/000000/test-passed.png" type = "image/x-icon">
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">Login</button>
+          <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+          <img src="img/icon_facebook.png" alt="">
+          <img src="img/icon_google.png" alt="">
+          <img src="img/icon_twitter.png" alt="">
+        </div>
+        <form id="login" class="input-group" action="exam.html">
+          <input type="text" class="input-field" placeholder="User ID" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+          <input type="checkbox" name="checkbox" class="check-box">
+          <label for="checkbox">Remmeber password</label>
+          <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <form id="register" class="input-group" action="login.html">
+          <input type="text" class="input-field" placeholder="User ID" required>
+          <input type="email" class="input-field" placeholder="Email ID" required>
+          <input type="password" class="input-field" placeholder="Enter password" required>
+          <input type="checkbox" name="checkbox" class="check-box">
+          <label for="checkbox">I agree with the Terms and Conditons</label>
+          <button type="submit" class="submit-btn">Register</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
