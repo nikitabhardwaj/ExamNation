@@ -14,3 +14,7 @@ Team Name `J.A.R.V.I.S`
 |4|Tarun|Member|
 
 >Work is in progress Thank you!
+
+Done :
+`HomePage`
+`Login`
