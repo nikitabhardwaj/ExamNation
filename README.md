@@ -10,8 +10,7 @@ Team Name `J.A.R.V.I.S`
 |---|---|---|
 |1|Nikita|Team Leader|
 |2|Sabyasachi|Member|
-|3|Risiraj|Member|
-|4|Tarun|Member|
+|3|Tarun|Member|
 
 >Work is in progress Thank you!
 
