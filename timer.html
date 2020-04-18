@@ -3,15 +3,15 @@
     <title></title>
     <script language ="javascript" >
         var tim;
-       
-        var min = 20;
-        var sec = 60;
+
+        var min = 30;
+        var sec = 00;
         var f = new Date();
         function f1() {
             f2();
             document.getElementById("starttime").innerHTML = "Your started your Exam at " + f.getHours() + ":" + f.getMinutes();
-             
-          
+
+
         }
         function f2() {
             if (parseInt(sec) > 0) {
@@ -32,7 +32,7 @@
                         tim = setTimeout("f2()", 1000);
                     }
                 }
-               
+
             }
         }
     </script>
@@ -54,16 +54,16 @@
         </tr>
         <tr>
           <td>
-             
+
               <br />
-            
-              
+
+
           </td>
-         
+
         </tr>
       </table>
       <br />
-   
+
 
     </div>
     </form>
