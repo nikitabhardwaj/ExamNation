@@ -6,7 +6,7 @@
 Team Name `J.A.R.V.I.S`
 
 
-|Sno.|Name|Role|
+|Slno.|Name|Role|
 |---|---|---|
 |1|Nikita|Team Leader|
 |2|Sabyasachi|Member|
