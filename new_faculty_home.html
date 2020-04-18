@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" https-equiv="Content-Type">
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <link href="Content/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/tab_stylesheet.css">
+        <title>Faculty : Home</title>
+        <script>
+         function change_tab(id)
+         {
+           document.getElementById("page_content").innerHTML=document.getElementById(id+"_desc").innerHTML;
+           document.getElementById("page1").className="notselected";
+           document.getElementById("page2").className="notselected";
+           document.getElementById("page3").className="notselected";
+           document.getElementById(id).className="selected";
+         }
+        </script>
+
+      </head>
+
+
+        <style>
+
+        .copy-container{
+          font-family: 'Sansita', sans-serif;
+        }
+        .header-logo {
+          float: left;
+          font-size: 36px;
+          padding: 20px 40px;
+          font-family: 'Sansita', sans-serif;
+        }
+        .Change_Request
+        {
+          background-color:#dee7ec;
+          color :#889eab;
+
+        }
+        .header {
+          background-color: #26d0c9;
+          color: #fff;
+          height: 90px;
+        }
+        .bgimg{
+          background: url(img/bg_all.jpg);
+          width: 100%;
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+        }
+
+
+        </style>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <body>
+          <div class="header">
+            <div class="header-logo">ExamNation</div>
+
+          </div>
+          <div align="centre">
+          <div class="bgimg">
+
+            <div class="copy-container">
+              <h1 text-align="centre">FACULTY HOME</h1>
+
+            </div>
+            <div class="col-md-3">
+                <div class="ibox ibox-shadow">
+                    <div class="ibox-title">
+                        <h5 class="fa fa-user" style="color: #177492;">&nbsp; Profile Detail</h5>
+                    </div>
+                    <div class="ibox-content no-padding border-left-right" style="border-color: #fbda78">
+                        <span style="BACKGROUND: #579cd6;color: white;">PROFILE PICTURE</span>
+                        <img alt="image" class="imgprofile" src="https://img.icons8.com/color/48/000000/gender-neutral-user.png" style=" height: 65px; width: 65px;">
+                    </div>
+                    <div class="ibox-content no-padding border-left-right" style="border-color: #fbda78">
+                        <span style="BACKGROUND: #579cd6;color: white;">SIGNATURE</span>
+                        <img alt="image" class="Signprofile" src="img/sign.png" style=" height: 60px; width: 150px;">
+                    </div>
+            <input class="Change_Request" type="submit" value= "Request for change"> </input>
+            </div>
+            </div>
+            <div id="main_content">
+
+             <li class="selected" id="page1" onclick="change_tab(this.id);">Profile</li>
+             <li class="notselected" id="page2" onclick="change_tab(this.id);">Schedule</li>
+             <li class="notselected" id="page3" onclick="change_tab(this.id);">Evaluation</li>
+
+             <div class='hidden_desc' id="page1_desc">
+               <div class="ibox-content divBasicInformation" style="border-color: #fbda78">
+                                                               <div>
+                                                                   <div class="feed-activity-list">
+                                                                       <div class="feed-element">
+                                                                           <div class="row">
+                                                                               <div class="col-md-3 col-lg-3">
+                                                                                   <span class="line "><strong>Degree :</strong></span>
+                                                                                   <p class="Degree "></p>
+                                                                               </div>
+                                                                               <div class="col-md-4 col-lg-4">
+                                                                                   <span class="line "><strong>Course of Study :</strong> </span>
+                                                                                   <p class="CourseofStudy "></p>
+                                                                               </div>
+                                                                               <div class="col-md-4 col-lg-4">
+                                                                                   <span class="line "><strong>Subject :</strong></span>
+                                                                                   <p class="Subject "></p>
+                                                                               </div>
+                                                                           </div>
+                                                                           <div class="row">
+                                                                               <div class="col-md-3 col-lg-3">
+                                                                                   <span class="line "><strong> College ID :</strong></span>
+                                                                                   <p class="CollegeID "></p>
+                                                                               </div>
+                                                                               <div class="col-md-8 col-lg-8">
+                                                                                   <span class="line "><strong> College Name :</strong></span>
+                                                                                   <p class="CollegeName "></p>
+                                                                               </div>
+                                                                           </div>
+                                                                       </div>
+
+                                                                       <div class="feed-element">
+                                                                           <div class="row">
+                                                                               <div class="col-md-3 col-lg-3">
+                                                                                   <span class="line "><strong>Category :</strong></span>
+                                                                                   <p class="Category "></p>
+                                                                               </div>
+
+                                                                           </div>
+                                                                       </div>
+                                                                       <div class="feed-element">
+                                                                           <div class="row">
+                                                                               <div class="col-md-3 col-lg-3">
+                                                                                   <span class="line "><strong>Gender :</strong></span>
+                                                                                   <p class="Gender "></p>
+                                                                               </div>
+
+
+                                                                               <div class="col-md-3 col-lg-3">
+                                                                                   <span class="line "><strong>Nationality :</strong> </span>
+                                                                                   <p class="Nationality"></p>
+                                                                               </div>
+                                                                           </div>
+                                                                       </div>
+                                                                   </div>
+                                                               </div>
+            </div>
+             </div>
+
+             <div class='hidden_desc' id="page2_desc">
+              <h2>Exam Schedule</h2>
+            Schedule should appear here.
+             </div>
+
+             <div class='hidden_desc' id="page3_desc">
+              <h2>Report Card</h2>
+              Evaluation Section
+             </div>
+
+             <div id="page_content">
+              <h2>Click on any Tab above to continue!</h2>
+
+             </div>
+
+            </div>
+
+
+
+
+            </body>
+            </html>
