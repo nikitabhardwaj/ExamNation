@@ -37,7 +37,7 @@ main{
     width: 96%;
     margin: 50px auto;
     display: grid;
-    grid-template-rows: 42px 250px 180px;
+    grid-template-rows: 42px 250px auto;
     grid-template-columns: auto 330px;
     grid-gap: 4px;
 }
@@ -55,7 +55,7 @@ main{
 
 .div-right2{
     display: grid;
-    grid-template-rows: 32px auto 25px;
+    grid-template-rows: 32px auto 27px;
 }
 
 .div-right3{
