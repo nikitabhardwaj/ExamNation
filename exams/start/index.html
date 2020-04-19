@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Exam - ExamNation</title>
@@ -9,17 +9,53 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body onload="f2()">
     <div class="nav">
         <img src="assets/img/exam.png"/>
         <a href="#">Exam Nation <p>Online Exam Portal</p></a>
     </div>
     <div class="bar-line"></div>
-    <div class="main-view">
-        <div class="elements">
+    
+      <div id="starttime"></div><br />
+  <div id="sec-field"></div><br />
+  <div id="min-field"></div>
+    <main>
+        <div class="div-left">
             
         </div>
-    </div>
+        
+        <div class="div-right1">
+            <div class="time-var">0</div>            
+            <div class="time-var" id="min-field">0</div>
+            <div class="time-var" id="sec-field">0</div>
+            <div class="time-case">Hours</div> 
+            <div class="time-case">Minutes</div>
+            <div class="time-case">Seconds</div>
+        </div>        
+        
+        <div class="div-right2">
+            <div class="head-labels">
+                <label>Subject</label>
+            </div>
+            <div class="contents">
+            </div>            
+            <div class="exam-submit">
+            </div>
+        </div>        
+        
+        <div class="div-right3">
+            
+            <div class="head-labels">
+                <label>Legend</label>
+            </div>
+            
+            <div class="cam-area">
+	           <video autoplay="true" id="videoElement"></video>
+            </div>
+        </div>
+    </main>
+    
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>

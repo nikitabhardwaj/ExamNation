@@ -1,4 +1,7 @@
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #edebed;
 }
 .nav{
@@ -29,15 +32,75 @@ body{
     height: 1.5px;
     background-color: black;
 }
-.main-view {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-
-}
-.elements {
-    width: 100%;
+main{
+    width: 96%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 42px 250px 180px;
+    grid-template-columns: auto 330px;
+    grid-gap: 4px;
 }
 
+.div-left{
+    margin-right: 10px;
+    background-color: white;
+    grid-row: 1/ span 3;
+}
+.div-right1{
+    display: grid;
+    background-color: lightgray;  
+    grid-template-columns: auto auto auto;
+}
+
+.div-right2{
+    display: grid;
+    grid-template-rows: 32px auto 25px;
+}
+
+.div-right3{
+    display: grid;
+    grid-template-rows: 32px auto;
+}
+
+.time-var{
+    margin-top: 1px;
+    color: lightslategray;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: -4px;
+}
+
+.time-case{
+    color: lightslategray;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.head-labels{
+    background-color: lightgrey;
+}
+.head-labels label{
+    color: darkslategrey;
+    margin-top: 2.5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.contents{
+    background-color: white;
+}
+
+.exam-submit{
+    background-color: red;
+    cursor: pointer;
+}
+
+.cam-area{
+    align-content: center;
+    text-align: center;
+}
+#videoElement {
+	width: 100%;
+}
