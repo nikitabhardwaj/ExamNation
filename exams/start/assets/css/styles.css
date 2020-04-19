@@ -55,7 +55,7 @@ main{
 
 .div-right2{
     display: grid;
-    grid-template-rows: 32px auto 27px;
+    grid-template-rows: 32px auto 30px;
 }
 
 .div-right3{
@@ -95,8 +95,16 @@ main{
 .exam-submit{
     background-color: red;
     cursor: pointer;
+    text-align: center;
 }
-
+.exam-submit img{
+    height: 14px;
+}
+.exam-submit label{
+    margin-top: 4px;
+    font-size: 14px;
+    color: white;
+}
 .cam-area{
     align-content: center;
     text-align: center;
