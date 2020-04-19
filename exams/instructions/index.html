@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Exam - ExamNation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="assets/img/exam.png"/>
+        <a href="#">Exam Nation <p>Online Exam Portal</p></a>
+    </div>
+    <div class="bar-line"></div>
+    <div class="main-view">
+        <div class="elements">
+            <div class="top-content">
+                <label>Instructions</label>
+            </div>
+            <div class="bottom-content">
+                <div class="items">
+                    <label class="warning">This is the sample exam for your Subject</label>
+                    <br>
+                    <label class="text">Exam Duration : 15 Min</label><br>
+                    <label class="text">Total Number of Questions : 15</label><br>
+                    <label class="text">Negative Marking : No</label><br>
+                    <label class="warning">don't forget to save your answer before moving to next question</label><br>
+                    <label class="confirm">After Exam result will be send to your registered Email</label><br>
+                    <input type="checkbox" name="checkbox" class="check-box">
+                    <label for="checkbox" class="text-checkbox">I am ready to begin</label><br>
+                    <button type="submit" class="exam-start" id="btn">Exam Start</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+                $(document).ready(function() {
+                    $("#btn").click(function() {
+                        if ($("input[type=checkbox]").is(
+                          ":checked")) {
+                            window.location = "../start/index.html";
+                        } else {
+                            alert("Please agree the statement !");
+                        }
+                    });
+                });
+
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
