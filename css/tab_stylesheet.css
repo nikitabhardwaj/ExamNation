@@ -11,7 +11,8 @@ h1
  text-align:center;
  font-size:35px;
  margin-top:60px;
- 
+
+
 }
 h1 p
 {
@@ -20,6 +21,7 @@ h1 p
  font-size:18px;
  text-decoration:underline;
  color:white;
+
 }
 #main_content
 {
@@ -37,6 +39,7 @@ h1 p
  color:#292A0A;
  font-weight:bold;
  cursor:pointer;
+
 }
 #main_content li.notselected
 {
@@ -62,4 +65,7 @@ h1 p
  color:#2E2E2E;
  line-height: 1.6em;
  word-spacing:4px;
+}
+.next-line{
+  float:inherit;
 }
