@@ -1,6 +1,6 @@
 # ExamNation
 
-### This is the private repository for our project.
+### This is the public repository for our project.
 
 
 Team Name `J.A.R.V.I.S`
@@ -17,3 +17,4 @@ Team Name `J.A.R.V.I.S`
 Done :
 `HomePage`
 `Login`
+link for demo:https://nikitabhardwaj.github.io/ExamNation/
